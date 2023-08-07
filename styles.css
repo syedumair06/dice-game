@@ -1,0 +1,64 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color:aliceblue ;
+}
+
+h1,h2 {
+margin: 30px;
+font-family: 'Righteous', cursive;
+font-size: 7rem;
+color: #000000;
+letter-spacing: 5px;
+}
+
+h1
+{
+margin-top: 100px;
+color: rgb(255, 0, 0) ;
+-webkit-text-stroke: 0.01px black;
+background: black;
+border-radius: 100px;
+border: 1px solid black;
+padding: 0px -100px;
+}
+
+p {
+  font-size: 2rem;
+  color: #000000;
+font-family: 'Vina Sans', cursive;
+}
+
+img {
+  width: 80%;
+  transition: all;
+}
+
+footer {
+  margin-top: 5%;
+  color: #030303;
+  text-align: center;
+  font-family:"Arial", cursive;
+
+}
+
+@media (min-width: 100px) and (max-width: 800px)
+{
+.footer
+{
+position: relative;
+top: auto;
+margin-top: 60%;
+bottom: 20px;
+}
+}
